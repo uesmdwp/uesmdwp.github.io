@@ -33,7 +33,7 @@ async function protege(usuario) {
 }
 
 function consulta() {
-  daoAlumno.
+  daoJugador.
     orderBy("nombre")
     .onSnapshot(
       htmlLista, errConsulta);
