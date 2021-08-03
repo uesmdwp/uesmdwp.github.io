@@ -56,7 +56,7 @@ export function
   DocumentSnapshot} doc
  * @param {string} valor */
 function
-  htmlAlumno(doc, valor) {
+  htmlJugador(doc, valor) {
   const selected =
     doc.id === valor ?
       "selected" : "";
